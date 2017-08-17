@@ -55,23 +55,24 @@
   "sources": [
     {
       "name": "CDIAC",
-      "web": "http://cdiac.esd.ornl.gov/ftp/ndp030/CSV-FILES/global.1751_2010.csv"
+      "web": "http://cdiac.esd.ornl.gov/ftp/ndp030/CSV-FILES/global.1751_2010.csv",
+      "title": "CDIAC"
     }
   ],
   "title": "Global CO2 Emissions from Fossil Fuels since 1751",
   "views": [
     {
-      "id": "graph",
-      "label": "Graph",
-      "state": {
-        "graphType": "lines-and-points",
+      "name": "graph",
+      "title": "Global CO2 Emissions from Fossil Fuels since 1751",
+      "specType": "simple",
+      "spec": {
+        "type": "lines-and-points",
         "group": "Year",
         "series": [
           "Total",
           "Solid Fuel"
         ]
-      },
-      "type": "Graph"
+      }
     }
   ]
 }
