@@ -9,9 +9,8 @@
         "fields": [
           {
             "description": "Year",
-            "format": "any",
             "name": "Year",
-            "type": "date"
+            "type": "year"
           },
           {
             "description": "Total carbon emissions from fossil fuel consumption and cement production (million metric tons of C)",
